@@ -4,27 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel app -d dist"
+    "build": "babel src -d dist"
   },
   "scripts": {
-    "build": "babel --presets es2015 app -d dist"
+    "build": "babel --presets es2015 src -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamlesh923/ES6.git"
-  },
-  "author": "Kamlesh",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kamlesh923/ES6/issues"
-  },
-  "homepage": "https://github.com/kamlesh923/ES6#readme",
   "devDependencies": {
-    "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-es2015": "^6.24.1",
-    "gulp": "^3.9.1",
-    "gulp-es6-transpiler": "^1.0.1"
+    "babel-preset-es2015": "^6.24.1"
   }
 }
